@@ -14,5 +14,50 @@
 		"promotions": ["Logistics","Accuracy I"],
 		"uniques": ["Can transform to [Musketman] <in [Friendly Land] tiles>", "Can transform to [Machine Gun] <in [Friendly Land] tiles>"],
 		"attackSound": "phasers"
-	}
+	}	{
+		"name": "Emerirt",
+		"unitType": "Melee Water",
+		"uniqueTo": "Aliens",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 13,
+		"rangedStrength": 10,
+		"range": 1,
+		"cost": 56,
+		"requiredTech": "Sailing",
+		"obsoleteTech": "Astronomy",
+		"uniques": [
+			"[+50]% Strength <vs [Wounded] units>",
+			"Cannot enter ocean tiles",
+			"Can transform to [Emerirt (Ranged Water, Galleass)] <in [Friendly Land] tiles>"
+		],
+		"promotions": [
+			"Favorable Winds"
+		],
+		"attackSound": "nonmetalhit",
+		"upgrade": "Caravel"
+	},
+	{
+		"name": "Emerirt (Ranged Water, Galleass)",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Aliens",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 13,
+		"rangedStrength": 10,
+		"range": 1,
+		"cost": 56,
+		"requiredTech": "Sailing",
+		"obsoleteTech": "Astronomy",
+		"uniques": [
+			"[+50]% Strength <vs [Wounded] units>",
+			"Cannot enter ocean tiles",
+			"Can transform to [Emerirt] <in [Friendly Land] tiles>"
+		],
+		"promotions": [
+			"Favorable Winds"
+		],
+		"attackSound": "nonmetalhit",
+		"upgrade": "Galleass"
+	},
 ]
