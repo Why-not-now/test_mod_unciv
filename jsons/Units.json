@@ -32,9 +32,6 @@
 			"Cannot enter ocean tiles",
 			"Can transform to [Emerirt (Ranged Water, Galleass)] <in [Friendly Land] tiles>"
 		],
-		"promotions": [
-			"Favorable Winds"
-		],
 		"attackSound": "nonmetalhit",
 		"upgrade": "Caravel"
 	},
@@ -54,9 +51,6 @@
 			"[+50]% Strength <vs [Wounded] units>",
 			"Cannot enter ocean tiles",
 			"Can transform to [Emerirt] <in [Friendly Land] tiles>"
-		],
-		"promotions": [
-			"Favorable Winds"
 		],
 		"attackSound": "nonmetalhit",
 		"upgrade": "Galleass"
