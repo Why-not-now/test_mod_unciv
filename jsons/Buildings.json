@@ -17,7 +17,6 @@
 		"replaces": "Aqueduct",
 		"uniqueTo": "Aliens",
 		"cost": 80,
-		"hurryCostModifier": 160,
 		"hurryCostModifier": -100
 		"happiness": 2,
 		"uniques": ["40% of food is carried over after a new citizen is born"],
