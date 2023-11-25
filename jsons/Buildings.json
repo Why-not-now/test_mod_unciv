@@ -18,7 +18,7 @@
 		"uniqueTo": "Aliens",
 		"cost": 80,
 		"hurryCostModifier": 160,
-		"food": -1
+		"xpForNewUnits": -1
 		"happiness": 2,
 		"uniques": ["40% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
